@@ -10,7 +10,7 @@
   --grayLight: #F5F5F5;
   --grayMedium: #E5E5E5;
   --white: #FFFFFF;
-  --frontEnd: #DB202C;
+  --frontEnd: #FF2483;
   --backEnd: #00C86F;
 }
 
@@ -21,4 +21,10 @@ html, body {
 
 a {
   color: inherit;
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
